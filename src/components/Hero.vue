@@ -27,11 +27,11 @@ onUnmounted(() => {
 <template>
     <div class="flex justify-between pt-6 items-center">
         <div>
-            <h1 class="text-6xl font-bold leading-tight">
+            <h1 class="text-5xl font-bold leading-tight">
                 Crafting
             </h1>
 
-            <h1 class="text-6xl font-bold leading-tight">
+            <h1 class="text-5xl font-bold leading-tight">
                 <Transition name="text-rotate" mode="out-in">
                     <span :key="currentIndex" class="text-[#992B00] inline-block">
                         {{ applications[currentIndex] }}
@@ -39,7 +39,7 @@ onUnmounted(() => {
                 </Transition>
             </h1>
 
-            <h1 class="text-6xl font-bold leading-tight">
+            <h1 class="text-5xl font-bold leading-tight">
                 Solutions
             </h1>
             <p class="text-gray-400 text-lg pt-4">We specialise in building web applications , mobile applications ,
@@ -66,7 +66,7 @@ onUnmounted(() => {
             </div>
         </div>
         <div>
-            <img src="../../public/hero_phone.svg" class="pr-8">
+            <img src="../assets/images/hero_phone.svg" class="pr-8">
         </div>
     </div>
 
